@@ -1,0 +1,459 @@
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+}
+ 
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+   /*margin: 100px 150px 70px 30px;  */
+
+    /*text-transform: uppercase;*/
+   /*text-decoration: dashed;*/
+}
+
+h1 strong{
+    color: blue;
+}
+h2 {
+    color:black;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+h2::after {
+    content: '';
+    margin: 0 auto;
+    background-image: url(/img/separador.png);
+    height: 30px;
+    width: 100px;
+    display: block;}
+
+.hero{
+background-image: url(/img/hero.jpg);
+    height: 70vh;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    -webkit-filter: grayscale(.6);
+  
+}
+/*
+.hero{
+    height: 300px;
+    background-image: url(/img/arduino-UNO.bcc69bde.png);
+    
+    background-color:#1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+   display: flex;
+   align-items: center;
+}
+*/
+
+
+.flexybox{
+   
+    background-color: rgba(150, 150, 150, .2);
+}
+
+.flexybox p{
+    margin-top: 20px;
+    margin-left: 12px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/*/    seccion de beneficicos  contendotes hechos con "flexy boxes" ///*/
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+
+
+    .beneficio-contenedor{
+        display: flex;
+    justify-content: center;
+    background-color: rgba(150, 150, 150, .2)
+    }
+
+    .titulo{
+        align-content: center;
+        text-align: center;
+    }
+
+    .beneficio-contenedor h2{
+        margin-top: 40px;
+        
+    }
+
+  
+  /*  ////////Hasta aui es beneficios jejejeje :´< /////////////*/
+
+
+
+/*/    seccion de beneficicos  contendotes hechos con "flexy boxes" ///*/
+.flex-containerAbajo {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+  
+
+    
+
+  /*  ////////Hasta aui es beneficios jejejeje :´< /////////////*/
+
+
+.portafolio{
+    background: #fafafa;
+    padding: 20px;
+    
+}
+
+.portafolio h2{
+    align-content: center;
+        text-align: center;
+}
+
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title{
+    font-size: 30px;
+}
+
+.project-course,
+.project-date,
+.project-url{
+    margin: 10px 0;
+}
+
+.project-description{
+    font-size: 20px;
+}
+.project-strong{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*.project-date{
+    margin: 10
+}*/
+
+.project-details{
+width: 500px;
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.project-imageContainer{
+    width: 500px;
+    
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    /*alinear a los lados*/
+    justify-content:  space-between;
+    
+}
+
+
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+figure{
+    margin:0;
+}
+
+header a{
+    color: white;
+    text-decoration:none;
+}
+
+.menu{
+    height: inherit;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    display: block;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding:  0 10px;
+}
+
+
+
+ .footer{
+    
+     color: white;
+     background-color: #1b2127;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .footer img{
+     vertical-align: middle;
+ }
+ .footer a{
+     color: white;
+ }
+
+.event-list{
+    display: flex;
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+
+ .event{
+   
+    margin: 15px;
+    width: 470px;
+    border-radius: 10px;
+    
+    /*arregla las punas salñidas*/
+    overflow: hidden;
+
+    flex-shrink: -0;
+
+    background: rgb(173, 236, 245);
+ }
+
+ .event img{
+     width: 480px;
+     height: 200px; 
+     object-fit: cover;
+ }
+
+ .event-details{
+     /*separar detalle de imagen*/
+     margin: 20px 40px;
+     margin-top: -40px;
+     background-color: white;
+     position: relative;
+     padding: 20px;
+     text-align: center;
+ }
+
+ .event-description{
+text-align: left;
+ }
+
+ .event-url{
+     border: 1px solid #005566;
+     padding: 5px 20px;
+     text-decoration: none;
+     color: #005566;
+     border-radius: 5px;
+
+ }
+
+ .contacto{
+     background-color: blue;
+     color:white;
+     height: 150px;
+     display: flex;
+     align-items: center;
+ }
+
+ .social{
+     border: 1px solid red;
+ }
+
+ .social-link{
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     border: 1px solid white;
+     background-size: 50px 50px;
+     margin:  0 10px;
+ }
+
+ .social-link.github{
+    background-image: url(/img/Octicons-mark-github.svg);
+    background-size: 50px 50px;
+}
+
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px 10px 25px;
+    background-image: url(/img/envelope-regular.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center; 
+    background-position-x: 5px;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    
+}
+
+.form-email h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
